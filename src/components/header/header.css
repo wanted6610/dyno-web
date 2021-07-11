@@ -1,0 +1,39 @@
+.wrapper {
+  flex: 0 0 auto;
+}
+
+.header {
+  background-color: #127aa4;
+}
+
+.header-top {
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__img {
+  width: 100%;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  list-style: none;
+}
+
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 28px;
+}
+
+.navigation__link.active {
+  color: #f97d02;
+}
+
+.header-bottom {
+  margin-bottom: 11px;
+}

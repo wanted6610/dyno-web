@@ -1,0 +1,23 @@
+.footer {
+  background-color: #127aa4;
+  flex: 0 0 auto;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  list-style: none;
+}
+
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 28px;
+}
